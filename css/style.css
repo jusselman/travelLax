@@ -132,7 +132,12 @@ h1.main-heading-header {
 
 h1.main-heading-header:hover {
   transform: scale(1.5);
+  translate(-50%, -50%);
   color: rgb(169, 179, 146);
+}
+
+.fade {
+  display: none;
 }
 
 /* about section */
@@ -157,4 +162,11 @@ h1.about-heading-header {
 
 h1.about-heading-header:hover {
   transform: scale(1.5);
+}
+
+/* contact form */
+
+.contact-form {
+  background-image: url('https://images.pexels.com/photos/2207745/pexels-photo-2207745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
 }
